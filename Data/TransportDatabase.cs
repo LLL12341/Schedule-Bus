@@ -13,9 +13,6 @@ namespace TransportWebSystem.Data
 
         private TransportDatabase()
         {
-            // 1. Створюємо зупинки з сортуванням по мікрорайонах (District)
-            
-            // Центр
             var maidan = new Stop { Id = 1, Name = "Майдан Незалежності", District = "Центр" };
             var teatralna = new Stop { Id = 2, Name = "Театральна площа", District = "Центр" };
             var pokrovskyi = new Stop { Id = 20, Name = "Покровський собор", District = "Центр" };
@@ -24,13 +21,11 @@ namespace TransportWebSystem.Data
             var tcViktoria = new Stop { Id = 30, Name = "ТЦ \"Вікторія\"", District = "Центр" };
             var istambul = new Stop { Id = 32, Name = "Істамбул", District = "Центр" };
 
-            // Автовокзал та Мототрек
             var avtovokzal = new Stop { Id = 3, Name = "Автовокзал", District = "Автовокзал та Мототрек" };
             var mototrek = new Stop { Id = 10, Name = "Мототрек", District = "Автовокзал та Мототрек" };
             var radiozavod = new Stop { Id = 26, Name = "Радіозавод", District = "Автовокзал та Мототрек" };
             var shkola12 = new Stop { Id = 6, Name = "12 школа", District = "Автовокзал та Мототрек" };
 
-            // Ювілейний та Боярка
             var yuvileinyi = new Stop { Id = 7, Name = "Мікрорайон Ювілейний", District = "Ювілейний та Боярка" };
             var boyarka = new Stop { Id = 14, Name = "Боярка", District = "Ювілейний та Боярка" };
             var ekvator = new Stop { Id = 11, Name = "ТЦ Екватор", District = "Ювілейний та Боярка" };
@@ -39,29 +34,24 @@ namespace TransportWebSystem.Data
             var onkodyspanser = new Stop { Id = 16, Name = "Онкодиспансер", District = "Ювілейний та Боярка" };
             var ahrarnyiKoledzh = new Stop { Id = 38, Name = "Аграрний коледж", District = "Ювілейний та Боярка" }; // НОВА ЗУПИНКА
 
-            // Північний та Льонокомбінат
             var pivnichnyi = new Stop { Id = 8, Name = "Мікрорайон Північний", District = "Північний та Льонокомбінат" };
             var lyonokombinat = new Stop { Id = 9, Name = "Льонокомбінат", District = "Північний та Льонокомбінат" };
             var chaika = new Stop { Id = 21, Name = "Чайка", District = "Північний та Льонокомбінат" };
             var bKhmelnytskoho = new Stop { Id = 25, Name = "бул. Богдана Хмельницького", District = "Північний та Льонокомбінат" };
 
-            // Відінська та Ст. Бандери
             var vidinska = new Stop { Id = 24, Name = "вул. Відінська", District = "Відінська та Ст. Бандери" };
             var stepanaBandery = new Stop { Id = 29, Name = "вул. Степана Бандери", District = "Відінська та Ст. Бандери" };
             var bilyiLebid = new Stop { Id = 27, Name = "Магазин \"Білий Лебідь\"", District = "Відінська та Ст. Бандери" };
             var pobutradiotekhnika = new Stop { Id = 28, Name = "Побутрадіотехніка", District = "Відінська та Ст. Бандери" };
             var maidanMistHeroiv = new Stop { Id = 37, Name = "Майдан Міст-героїв України", District = "Відінська та Ст. Бандери" };
 
-            // Залізничний вокзал
             var zaliznychnyi = new Stop { Id = 4, Name = "Залізничний вокзал", District = "Залізничний вокзал" };
             var zolotiyivska = new Stop { Id = 18, Name = "вул. Золотіївська", District = "Залізничний вокзал" };
             var rynok = new Stop { Id = 23, Name = "Ринок", District = "Залізничний вокзал" };
 
-            // Пивзавод
             var pyvzavod = new Stop { Id = 5, Name = "Пивзавод", District = "Пивзавод" };
             var budynokOfitseriv = new Stop { Id = 36, Name = "Будинок офіцерів", District = "Пивзавод" };
 
-            // Передмістя та Інші
             var zoopark = new Stop { Id = 13, Name = "Зоопарк", District = "Передмістя та Інші" };
             var kvasyliv = new Stop { Id = 17, Name = "Квасилів", District = "Передмістя та Інші" };
             var kolodenka = new Stop { Id = 19, Name = "Колоденка", District = "Передмістя та Інші" };
@@ -69,7 +59,7 @@ namespace TransportWebSystem.Data
             var rozvylka = new Stop { Id = 34, Name = "Розвилка", District = "Передмістя та Інші" };
             var trcFozzy = new Stop { Id = 35, Name = "ТРЦ Фоззі", District = "Передмістя та Інші" };
 
-            // 2. Додаємо всі зупинки у загальний список
+
             Stops = new List<Stop> 
             { 
                 maidan, teatralna, pokrovskyi, prospektMyru, drahomanova, tcViktoria, istambul,
@@ -85,7 +75,6 @@ namespace TransportWebSystem.Data
             TransportFactory busFactory = new BusFactory();
             TransportFactory trolleybusFactory = new TrolleybusFactory();
 
-            // --- ТРОЛЕЙБУСИ ---
             var tr1 = trolleybusFactory.CreateTransport("1 (Мототрек - Ювілейний)");
             tr1.Stops = new List<Stop> { mototrek, bilyiLebid, pobutradiotekhnika, stepanaBandery, vidinska, shkola12, teatralna, maidan, budynokOfitseriv, pyvzavod, yuvileinyi };
 
@@ -116,7 +105,7 @@ namespace TransportWebSystem.Data
             var tr12 = trolleybusFactory.CreateTransport("12 (Північний - Луцьке кільце)");
             tr12.Stops = new List<Stop> { pivnichnyi, maidan, budynokOfitseriv, lutskeKiltse };
 
-            // --- АВТОБУСИ ---
+
             var bus1 = busFactory.CreateTransport("1 (Льонокомбінат - Ювілейне)");
             bus1.Stops = new List<Stop> { lyonokombinat, maidan, budynokOfitseriv, pyvzavod, shkola12, yuvileinyi };
 
@@ -141,9 +130,8 @@ namespace TransportWebSystem.Data
             var bus38 = busFactory.CreateTransport("38 (Агроресурс - Коновальця)");
             bus38.Stops = new List<Stop> { avtovokzal, bKhmelnytskoho, budynokOfitseriv }; 
             
-            // Новий маршрут з фото
             var bus45 = busFactory.CreateTransport("45 (вул. Князя Романа - Школа №19)");
-            bus45.Stops = new List<Stop> { ahrarnyiKoledzh }; // Можна додати інші зупинки за потреби
+            bus45.Stops = new List<Stop> { ahrarnyiKoledzh };
 
             var bus46 = busFactory.CreateTransport("46 (Квасилів - вул. Золотіївська)");
             bus46.Stops = new List<Stop> { kvasyliv, maidan, budynokOfitseriv, drahomanova, tcViktoria, istambul, teatralna, rynok, zaliznychnyi, zolotiyivska };
@@ -151,7 +139,6 @@ namespace TransportWebSystem.Data
             var bus47 = busFactory.CreateTransport("47 (Вересневе - Льонокомбінат)");
             bus47.Stops = new List<Stop> { avtovokzal, pokrovskyi, maidan, budynokOfitseriv, shkola12, ahrarnyiKoledzh, bKhmelnytskoho, lyonokombinat };
 
-            // Новий маршрут з фото
             var bus47a = busFactory.CreateTransport("47А (Тинне - Льонокомбінат)");
             bus47a.Stops = new List<Stop> { ahrarnyiKoledzh, lyonokombinat }; 
 
@@ -173,7 +160,6 @@ namespace TransportWebSystem.Data
             var bus66 = busFactory.CreateTransport("66 (Червоні Гори - Онкодиспансер)");
             bus66.Stops = new List<Stop> { onkodyspanser, ahrarnyiKoledzh, rozvylka, trcFozzy, maidan, budynokOfitseriv, pyvzavod, yuvileinyi };
 
-            // 3. Формуємо фінальний список маршрутів
             Routes = new List<Transport>
             {
                 tr1, tr2, tr3, tr4a, tr5, tr7, tr9a, tr10, tr11, tr12,

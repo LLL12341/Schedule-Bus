@@ -4,8 +4,6 @@ namespace TransportWebSystem.Models
     {
         public int Id { get; set; }
         public string Name { get; set; }
-        
-        // Властивість для мікрорайону (для сортування на головній)
-        public string District { get; set; } 
+        public string District { get; set; }
     }
 }

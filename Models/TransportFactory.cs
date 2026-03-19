@@ -1,7 +1,5 @@
-// Файл: Models/TransportFactory.cs
 namespace TransportWebSystem.Models
 {
-    // Патерн Factory Method (Фабричний метод) - 1 з 3 необхідних патернів
     public abstract class TransportFactory
     {
         public abstract Transport CreateTransport(string routeNumber);

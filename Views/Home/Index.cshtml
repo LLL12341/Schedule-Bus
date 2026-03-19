@@ -5,7 +5,6 @@
 }
 
 <style>
-    /* Плавна поява елементів */
     @@keyframes fadeUp {
         from { opacity: 0; transform: translateY(30px); }
         to { opacity: 1; transform: translateY(0); }
@@ -15,7 +14,6 @@
     .delay-2 { animation-delay: 0.2s; }
     .delay-3 { animation-delay: 0.3s; }
 
-    /* Ефект скла (Glassmorphism) */
     .glass-card {
         background: rgba(255, 255, 255, 0.85);
         backdrop-filter: blur(12px);
@@ -28,7 +26,6 @@
         transform: translateY(-2px);
     }
 
-    /* Стилізація карток маршрутів */
     .route-card {
         transition: all 0.3s ease;
         border-radius: 12px;
@@ -40,7 +37,6 @@
         transform: scale(1.02);
     }
 
-    /* Плаваюча кнопка теми */
     .theme-toggle {
         position: fixed; bottom: 30px; right: 30px; z-index: 1000;
         width: 55px; height: 55px; border-radius: 50%;
@@ -49,7 +45,6 @@
     }
     .theme-toggle:hover { transform: scale(1.1) rotate(15deg); }
 
-    /* === ТЕМНА ТЕМА === */
     body.dark-theme { background-color: #121212 !important; color: #e0e0e0 !important; }
     
     body.dark-theme .glass-card, 
@@ -73,7 +68,6 @@
     body.dark-theme .route-card { border-color: rgba(255,255,255,0.05); }
     body.dark-theme .route-card:hover { background-color: rgba(255,255,255,0.05); border-color: #6ea8fe; }
 
-    /* Акордеон у темній темі */
     body.dark-theme .accordion-item { background-color: transparent; border-color: rgba(255,255,255,0.1); }
     body.dark-theme .accordion-button { background-color: rgba(255,255,255,0.05); color: #fff; }
     body.dark-theme .accordion-button:not(.collapsed) { background-color: rgba(13, 110, 253, 0.2); color: #6ea8fe; }
@@ -193,7 +187,6 @@
             <div class="card border-0 shadow-sm rounded-4 glass-card p-3 h-100">
                 
                 @{
-                    // Групуємо зупинки по District. Якщо District порожній, кидаємо в "Інші"
                     var groupedStops = Model?.Stops != null 
                         ? Model.Stops.GroupBy(s => string.IsNullOrEmpty(s.District) ? "Інші зупинки" : s.District).OrderBy(g => g.Key) 
                         : null;
@@ -211,7 +204,7 @@
                             <div class="accordion-item mb-2 border rounded shadow-sm overflow-hidden">
                                 <h2 class="accordion-header" id="@headingId">
                                     <button class="accordion-button collapsed fw-bold py-3" type="button" data-bs-toggle="collapse" data-bs-target="#@collapseId" aria-expanded="false" aria-controls="@collapseId">
-                                        📍 @group.Key 
+                                         @group.Key 
                                         <span class="badge bg-secondary rounded-pill ms-auto">@group.Count()</span>
                                     </button>
                                 </h2>
@@ -284,7 +277,6 @@
         }
     }
 
-    // Перевірка збереженої теми при завантаженні
     window.onload = function() {
         const savedTheme = localStorage.getItem('theme');
         if(savedTheme === 'dark') {

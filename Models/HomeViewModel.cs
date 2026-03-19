@@ -10,8 +10,6 @@ namespace TransportWebSystem.Models
         public int? StartStopId { get; set; }
         public int? EndStopId { get; set; }
         
-        // БУЛО: public Transport? SearchResult { get; set; }
-        // СТАЛО:
         public List<Transport>? SearchResult { get; set; } 
     }
 }
