@@ -1,0 +1,194 @@
+C:\Users\Администратор\Desktop\Schedule-Bus-main\Schedule-Bus-main\TransportWebSystem\bin\Debug\net9.0\appsettings.Development.json
+C:\Users\Администратор\Desktop\Schedule-Bus-main\Schedule-Bus-main\TransportWebSystem\bin\Debug\net9.0\appsettings.json
+C:\Users\Администратор\Desktop\Schedule-Bus-main\Schedule-Bus-main\TransportWebSystem\bin\Debug\net9.0\TransportWebSystem.staticwebassets.runtime.json
+C:\Users\Администратор\Desktop\Schedule-Bus-main\Schedule-Bus-main\TransportWebSystem\bin\Debug\net9.0\TransportWebSystem.staticwebassets.endpoints.json
+C:\Users\Администратор\Desktop\Schedule-Bus-main\Schedule-Bus-main\TransportWebSystem\bin\Debug\net9.0\TransportWebSystem.exe
+C:\Users\Администратор\Desktop\Schedule-Bus-main\Schedule-Bus-main\TransportWebSystem\bin\Debug\net9.0\TransportWebSystem.deps.json
+C:\Users\Администратор\Desktop\Schedule-Bus-main\Schedule-Bus-main\TransportWebSystem\bin\Debug\net9.0\TransportWebSystem.runtimeconfig.json
+C:\Users\Администратор\Desktop\Schedule-Bus-main\Schedule-Bus-main\TransportWebSystem\bin\Debug\net9.0\TransportWebSystem.dll
+C:\Users\Администратор\Desktop\Schedule-Bus-main\Schedule-Bus-main\TransportWebSystem\bin\Debug\net9.0\TransportWebSystem.pdb
+C:\Users\Администратор\Desktop\Schedule-Bus-main\Schedule-Bus-main\TransportWebSystem\obj\Debug\net9.0\TransportWebSystem.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Администратор\Desktop\Schedule-Bus-main\Schedule-Bus-main\TransportWebSystem\obj\Debug\net9.0\TransportWebSystem.AssemblyInfoInputs.cache
+C:\Users\Администратор\Desktop\Schedule-Bus-main\Schedule-Bus-main\TransportWebSystem\obj\Debug\net9.0\TransportWebSystem.AssemblyInfo.cs
+C:\Users\Администратор\Desktop\Schedule-Bus-main\Schedule-Bus-main\TransportWebSystem\obj\Debug\net9.0\TransportWebSystem.csproj.CoreCompileInputs.cache
+C:\Users\Администратор\Desktop\Schedule-Bus-main\Schedule-Bus-main\TransportWebSystem\obj\Debug\net9.0\TransportWebSystem.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Администратор\Desktop\Schedule-Bus-main\Schedule-Bus-main\TransportWebSystem\obj\Debug\net9.0\TransportWebSystem.RazorAssemblyInfo.cache
+C:\Users\Администратор\Desktop\Schedule-Bus-main\Schedule-Bus-main\TransportWebSystem\obj\Debug\net9.0\TransportWebSystem.RazorAssemblyInfo.cs
+C:\Users\Администратор\Desktop\Schedule-Bus-main\Schedule-Bus-main\TransportWebSystem\obj\Debug\net9.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Администратор\Desktop\Schedule-Bus-main\Schedule-Bus-main\TransportWebSystem\obj\Debug\net9.0\scopedcss\bundle\TransportWebSystem.styles.css
+C:\Users\Администратор\Desktop\Schedule-Bus-main\Schedule-Bus-main\TransportWebSystem\obj\Debug\net9.0\scopedcss\projectbundle\TransportWebSystem.bundle.scp.css
+C:\Users\Администратор\Desktop\Schedule-Bus-main\Schedule-Bus-main\TransportWebSystem\obj\Debug\net9.0\compressed\5gt38gcvq8-61n19gt1b8.gz
+C:\Users\Администратор\Desktop\Schedule-Bus-main\Schedule-Bus-main\TransportWebSystem\obj\Debug\net9.0\compressed\doaz3w751f-fr7q2aak1r.gz
+C:\Users\Администратор\Desktop\Schedule-Bus-main\Schedule-Bus-main\TransportWebSystem\obj\Debug\net9.0\compressed\0u9r3m34jd-bqjiyaj88i.gz
+C:\Users\Администратор\Desktop\Schedule-Bus-main\Schedule-Bus-main\TransportWebSystem\obj\Debug\net9.0\compressed\litevnm8dt-c2jlpeoesf.gz
+C:\Users\Администратор\Desktop\Schedule-Bus-main\Schedule-Bus-main\TransportWebSystem\obj\Debug\net9.0\compressed\ktjcl05vcw-erw9l3u2r3.gz
+C:\Users\Администратор\Desktop\Schedule-Bus-main\Schedule-Bus-main\TransportWebSystem\obj\Debug\net9.0\compressed\2ii3c07fbf-aexeepp0ev.gz
+C:\Users\Администратор\Desktop\Schedule-Bus-main\Schedule-Bus-main\TransportWebSystem\obj\Debug\net9.0\compressed\u95yich5df-d7shbmvgxk.gz
+C:\Users\Администратор\Desktop\Schedule-Bus-main\Schedule-Bus-main\TransportWebSystem\obj\Debug\net9.0\compressed\bm56zwrghw-ausgxo2sd3.gz
+C:\Users\Администратор\Desktop\Schedule-Bus-main\Schedule-Bus-main\TransportWebSystem\obj\Debug\net9.0\compressed\4zomrosiru-k8d9w2qqmf.gz
+C:\Users\Администратор\Desktop\Schedule-Bus-main\Schedule-Bus-main\TransportWebSystem\obj\Debug\net9.0\compressed\ima642bas1-cosvhxvwiu.gz
+C:\Users\Администратор\Desktop\Schedule-Bus-main\Schedule-Bus-main\TransportWebSystem\obj\Debug\net9.0\compressed\csuzk33q2l-ub07r2b239.gz
+C:\Users\Администратор\Desktop\Schedule-Bus-main\Schedule-Bus-main\TransportWebSystem\obj\Debug\net9.0\compressed\nwbv2w6iol-fvhpjtyr6v.gz
+C:\Users\Администратор\Desktop\Schedule-Bus-main\Schedule-Bus-main\TransportWebSystem\obj\Debug\net9.0\compressed\ntdhyu9pq8-b7pk76d08c.gz
+C:\Users\Администратор\Desktop\Schedule-Bus-main\Schedule-Bus-main\TransportWebSystem\obj\Debug\net9.0\compressed\s99wiszvix-fsbi9cje9m.gz
+C:\Users\Администратор\Desktop\Schedule-Bus-main\Schedule-Bus-main\TransportWebSystem\obj\Debug\net9.0\compressed\fv1pryp20e-rzd6atqjts.gz
+C:\Users\Администратор\Desktop\Schedule-Bus-main\Schedule-Bus-main\TransportWebSystem\obj\Debug\net9.0\compressed\ek2dqppz3p-ee0r1s7dh0.gz
+C:\Users\Администратор\Desktop\Schedule-Bus-main\Schedule-Bus-main\TransportWebSystem\obj\Debug\net9.0\compressed\9odsgmgdcd-dxx9fxp4il.gz
+C:\Users\Администратор\Desktop\Schedule-Bus-main\Schedule-Bus-main\TransportWebSystem\obj\Debug\net9.0\compressed\a505bi3pc5-jd9uben2k1.gz
+C:\Users\Администратор\Desktop\Schedule-Bus-main\Schedule-Bus-main\TransportWebSystem\obj\Debug\net9.0\compressed\u6g8wi86sq-khv3u5hwcm.gz
+C:\Users\Администратор\Desktop\Schedule-Bus-main\Schedule-Bus-main\TransportWebSystem\obj\Debug\net9.0\compressed\4atw5f8m6o-r4e9w2rdcm.gz
+C:\Users\Администратор\Desktop\Schedule-Bus-main\Schedule-Bus-main\TransportWebSystem\obj\Debug\net9.0\compressed\g1nsc42f1l-lcd1t2u6c8.gz
+C:\Users\Администратор\Desktop\Schedule-Bus-main\Schedule-Bus-main\TransportWebSystem\obj\Debug\net9.0\compressed\x57eagewuo-c2oey78nd0.gz
+C:\Users\Администратор\Desktop\Schedule-Bus-main\Schedule-Bus-main\TransportWebSystem\obj\Debug\net9.0\compressed\cy6bp9t23t-tdbxkamptv.gz
+C:\Users\Администратор\Desktop\Schedule-Bus-main\Schedule-Bus-main\TransportWebSystem\obj\Debug\net9.0\compressed\bx9yj2elkk-j5mq2jizvt.gz
+C:\Users\Администратор\Desktop\Schedule-Bus-main\Schedule-Bus-main\TransportWebSystem\obj\Debug\net9.0\compressed\y8c7zcff76-06098lyss8.gz
+C:\Users\Администратор\Desktop\Schedule-Bus-main\Schedule-Bus-main\TransportWebSystem\obj\Debug\net9.0\compressed\oejfxuow3b-nvvlpmu67g.gz
+C:\Users\Администратор\Desktop\Schedule-Bus-main\Schedule-Bus-main\TransportWebSystem\obj\Debug\net9.0\compressed\flb2yhq4kq-s35ty4nyc5.gz
+C:\Users\Администратор\Desktop\Schedule-Bus-main\Schedule-Bus-main\TransportWebSystem\obj\Debug\net9.0\compressed\egqy7bojqz-pj5nd1wqec.gz
+C:\Users\Администратор\Desktop\Schedule-Bus-main\Schedule-Bus-main\TransportWebSystem\obj\Debug\net9.0\compressed\hftnmj1pcu-46ein0sx1k.gz
+C:\Users\Администратор\Desktop\Schedule-Bus-main\Schedule-Bus-main\TransportWebSystem\obj\Debug\net9.0\compressed\a49wvym2n6-v0zj4ognzu.gz
+C:\Users\Администратор\Desktop\Schedule-Bus-main\Schedule-Bus-main\TransportWebSystem\obj\Debug\net9.0\compressed\n0iojezyc1-37tfw0ft22.gz
+C:\Users\Администратор\Desktop\Schedule-Bus-main\Schedule-Bus-main\TransportWebSystem\obj\Debug\net9.0\compressed\m191vd6xtx-hrwsygsryq.gz
+C:\Users\Администратор\Desktop\Schedule-Bus-main\Schedule-Bus-main\TransportWebSystem\obj\Debug\net9.0\compressed\rsug4sdiqb-pk9g2wxc8p.gz
+C:\Users\Администратор\Desktop\Schedule-Bus-main\Schedule-Bus-main\TransportWebSystem\obj\Debug\net9.0\compressed\lxfzo96mfu-ft3s53vfgj.gz
+C:\Users\Администратор\Desktop\Schedule-Bus-main\Schedule-Bus-main\TransportWebSystem\obj\Debug\net9.0\compressed\86jdryhp19-6cfz1n2cew.gz
+C:\Users\Администратор\Desktop\Schedule-Bus-main\Schedule-Bus-main\TransportWebSystem\obj\Debug\net9.0\compressed\mml1s8642c-6pdc2jztkx.gz
+C:\Users\Администратор\Desktop\Schedule-Bus-main\Schedule-Bus-main\TransportWebSystem\obj\Debug\net9.0\compressed\565vvxrjkj-493y06b0oq.gz
+C:\Users\Администратор\Desktop\Schedule-Bus-main\Schedule-Bus-main\TransportWebSystem\obj\Debug\net9.0\compressed\6pia41ko7p-iovd86k7lj.gz
+C:\Users\Администратор\Desktop\Schedule-Bus-main\Schedule-Bus-main\TransportWebSystem\obj\Debug\net9.0\compressed\1xl5348fgn-vr1egmr9el.gz
+C:\Users\Администратор\Desktop\Schedule-Bus-main\Schedule-Bus-main\TransportWebSystem\obj\Debug\net9.0\compressed\s8b6rd8t9c-kbrnm935zg.gz
+C:\Users\Администратор\Desktop\Schedule-Bus-main\Schedule-Bus-main\TransportWebSystem\obj\Debug\net9.0\compressed\s7lg6cmo5z-jj8uyg4cgr.gz
+C:\Users\Администратор\Desktop\Schedule-Bus-main\Schedule-Bus-main\TransportWebSystem\obj\Debug\net9.0\compressed\tuffw1mje9-y7v9cxd14o.gz
+C:\Users\Администратор\Desktop\Schedule-Bus-main\Schedule-Bus-main\TransportWebSystem\obj\Debug\net9.0\compressed\p6j5cykits-notf2xhcfb.gz
+C:\Users\Администратор\Desktop\Schedule-Bus-main\Schedule-Bus-main\TransportWebSystem\obj\Debug\net9.0\compressed\3vleo4u4ys-h1s4sie4z3.gz
+C:\Users\Администратор\Desktop\Schedule-Bus-main\Schedule-Bus-main\TransportWebSystem\obj\Debug\net9.0\compressed\07993hwsje-63fj8s7r0e.gz
+C:\Users\Администратор\Desktop\Schedule-Bus-main\Schedule-Bus-main\TransportWebSystem\obj\Debug\net9.0\compressed\u9t0ibt4bg-0j3bgjxly4.gz
+C:\Users\Администратор\Desktop\Schedule-Bus-main\Schedule-Bus-main\TransportWebSystem\obj\Debug\net9.0\compressed\0sqi3iq2wy-47otxtyo56.gz
+C:\Users\Администратор\Desktop\Schedule-Bus-main\Schedule-Bus-main\TransportWebSystem\obj\Debug\net9.0\compressed\3vj6qcoghx-4v8eqarkd7.gz
+C:\Users\Администратор\Desktop\Schedule-Bus-main\Schedule-Bus-main\TransportWebSystem\obj\Debug\net9.0\compressed\vskvogupgr-l3n5xuwxn8.gz
+C:\Users\Администратор\Desktop\Schedule-Bus-main\Schedule-Bus-main\TransportWebSystem\obj\Debug\net9.0\compressed\mvml06vxtt-ilo7uva0vt.gz
+C:\Users\Администратор\Desktop\Schedule-Bus-main\Schedule-Bus-main\TransportWebSystem\obj\Debug\net9.0\compressed\snkf27vr5b-qlccset4i1.gz
+C:\Users\Администратор\Desktop\Schedule-Bus-main\Schedule-Bus-main\TransportWebSystem\obj\Debug\net9.0\compressed\kdg45ckne3-lzl9nlhx6b.gz
+C:\Users\Администратор\Desktop\Schedule-Bus-main\Schedule-Bus-main\TransportWebSystem\obj\Debug\net9.0\compressed\790p309zwd-ag7o75518u.gz
+C:\Users\Администратор\Desktop\Schedule-Bus-main\Schedule-Bus-main\TransportWebSystem\obj\Debug\net9.0\compressed\nkq664b8qa-xzw0cte36n.gz
+C:\Users\Администратор\Desktop\Schedule-Bus-main\Schedule-Bus-main\TransportWebSystem\obj\Debug\net9.0\compressed\h0jno07p65-0i3buxo5is.gz
+C:\Users\Администратор\Desktop\Schedule-Bus-main\Schedule-Bus-main\TransportWebSystem\obj\Debug\net9.0\compressed\15fj4x4enb-o1o13a6vjx.gz
+C:\Users\Администратор\Desktop\Schedule-Bus-main\Schedule-Bus-main\TransportWebSystem\obj\Debug\net9.0\compressed\yv69e07dj3-ttgo8qnofa.gz
+C:\Users\Администратор\Desktop\Schedule-Bus-main\Schedule-Bus-main\TransportWebSystem\obj\Debug\net9.0\compressed\tvcabw1luf-2z0ns9nrw6.gz
+C:\Users\Администратор\Desktop\Schedule-Bus-main\Schedule-Bus-main\TransportWebSystem\obj\Debug\net9.0\compressed\7imktww405-muycvpuwrr.gz
+C:\Users\Администратор\Desktop\Schedule-Bus-main\Schedule-Bus-main\TransportWebSystem\obj\Debug\net9.0\compressed\pglj8vmsaz-87fc7y1x7t.gz
+C:\Users\Администратор\Desktop\Schedule-Bus-main\Schedule-Bus-main\TransportWebSystem\obj\Debug\net9.0\compressed\vpg8qgvgqf-jfsiqqwiad.gz
+C:\Users\Администратор\Desktop\Schedule-Bus-main\Schedule-Bus-main\TransportWebSystem\obj\Debug\net9.0\compressed\ximsd9n3hk-x5cw4m2ove.gz
+C:\Users\Администратор\Desktop\Schedule-Bus-main\Schedule-Bus-main\TransportWebSystem\obj\Debug\net9.0\compressed\e2qa7c1tls-x5cw4m2ove.gz
+C:\Users\Администратор\Desktop\Schedule-Bus-main\Schedule-Bus-main\TransportWebSystem\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\Администратор\Desktop\Schedule-Bus-main\Schedule-Bus-main\TransportWebSystem\obj\Debug\net9.0\staticwebassets.development.json
+C:\Users\Администратор\Desktop\Schedule-Bus-main\Schedule-Bus-main\TransportWebSystem\obj\Debug\net9.0\staticwebassets.build.endpoints.json
+C:\Users\Администратор\Desktop\Schedule-Bus-main\Schedule-Bus-main\TransportWebSystem\obj\Debug\net9.0\staticwebassets\msbuild.TransportWebSystem.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Администратор\Desktop\Schedule-Bus-main\Schedule-Bus-main\TransportWebSystem\obj\Debug\net9.0\staticwebassets\msbuild.TransportWebSystem.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\Администратор\Desktop\Schedule-Bus-main\Schedule-Bus-main\TransportWebSystem\obj\Debug\net9.0\staticwebassets\msbuild.build.TransportWebSystem.props
+C:\Users\Администратор\Desktop\Schedule-Bus-main\Schedule-Bus-main\TransportWebSystem\obj\Debug\net9.0\staticwebassets\msbuild.buildMultiTargeting.TransportWebSystem.props
+C:\Users\Администратор\Desktop\Schedule-Bus-main\Schedule-Bus-main\TransportWebSystem\obj\Debug\net9.0\staticwebassets\msbuild.buildTransitive.TransportWebSystem.props
+C:\Users\Администратор\Desktop\Schedule-Bus-main\Schedule-Bus-main\TransportWebSystem\obj\Debug\net9.0\staticwebassets.pack.json
+C:\Users\Администратор\Desktop\Schedule-Bus-main\Schedule-Bus-main\TransportWebSystem\obj\Debug\net9.0\TransportWebSystem.dll
+C:\Users\Администратор\Desktop\Schedule-Bus-main\Schedule-Bus-main\TransportWebSystem\obj\Debug\net9.0\refint\TransportWebSystem.dll
+C:\Users\Администратор\Desktop\Schedule-Bus-main\Schedule-Bus-main\TransportWebSystem\obj\Debug\net9.0\TransportWebSystem.pdb
+C:\Users\Администратор\Desktop\Schedule-Bus-main\Schedule-Bus-main\TransportWebSystem\obj\Debug\net9.0\TransportWebSystem.genruntimeconfig.cache
+C:\Users\Администратор\Desktop\Schedule-Bus-main\Schedule-Bus-main\TransportWebSystem\obj\Debug\net9.0\ref\TransportWebSystem.dll
+C:\Users\Администратор\Desktop\Schedule-Bus-main\Schedule-Bus-main\TransportWebSystem\obj\Debug\net9.0\compressed\a6fi8m68cf-dh5n8ckpcz.gz
+C:\Users\Администратор\Desktop\Schedule-Bus-main — копия\Schedule-Bus-main\TransportWebSystem\bin\Debug\net9.0\appsettings.Development.json
+C:\Users\Администратор\Desktop\Schedule-Bus-main — копия\Schedule-Bus-main\TransportWebSystem\bin\Debug\net9.0\appsettings.json
+C:\Users\Администратор\Desktop\Schedule-Bus-main — копия\Schedule-Bus-main\TransportWebSystem\bin\Debug\net9.0\TransportWebSystem.staticwebassets.endpoints.json
+C:\Users\Администратор\Desktop\Schedule-Bus-main — копия\Schedule-Bus-main\TransportWebSystem\bin\Debug\net9.0\TransportWebSystem.staticwebassets.runtime.json
+C:\Users\Администратор\Desktop\Schedule-Bus-main — копия\Schedule-Bus-main\TransportWebSystem\bin\Debug\net9.0\TransportWebSystem.exe
+C:\Users\Администратор\Desktop\Schedule-Bus-main — копия\Schedule-Bus-main\TransportWebSystem\bin\Debug\net9.0\TransportWebSystem.deps.json
+C:\Users\Администратор\Desktop\Schedule-Bus-main — копия\Schedule-Bus-main\TransportWebSystem\bin\Debug\net9.0\TransportWebSystem.runtimeconfig.json
+C:\Users\Администратор\Desktop\Schedule-Bus-main — копия\Schedule-Bus-main\TransportWebSystem\bin\Debug\net9.0\TransportWebSystem.dll
+C:\Users\Администратор\Desktop\Schedule-Bus-main — копия\Schedule-Bus-main\TransportWebSystem\bin\Debug\net9.0\TransportWebSystem.pdb
+C:\Users\Администратор\Desktop\Schedule-Bus-main — копия\Schedule-Bus-main\TransportWebSystem\obj\Debug\net9.0\TransportWebSystem.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Администратор\Desktop\Schedule-Bus-main — копия\Schedule-Bus-main\TransportWebSystem\obj\Debug\net9.0\TransportWebSystem.AssemblyInfoInputs.cache
+C:\Users\Администратор\Desktop\Schedule-Bus-main — копия\Schedule-Bus-main\TransportWebSystem\obj\Debug\net9.0\TransportWebSystem.AssemblyInfo.cs
+C:\Users\Администратор\Desktop\Schedule-Bus-main — копия\Schedule-Bus-main\TransportWebSystem\obj\Debug\net9.0\TransportWebSystem.csproj.CoreCompileInputs.cache
+C:\Users\Администратор\Desktop\Schedule-Bus-main — копия\Schedule-Bus-main\TransportWebSystem\obj\Debug\net9.0\TransportWebSystem.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Администратор\Desktop\Schedule-Bus-main — копия\Schedule-Bus-main\TransportWebSystem\obj\Debug\net9.0\TransportWebSystem.RazorAssemblyInfo.cache
+C:\Users\Администратор\Desktop\Schedule-Bus-main — копия\Schedule-Bus-main\TransportWebSystem\obj\Debug\net9.0\TransportWebSystem.RazorAssemblyInfo.cs
+C:\Users\Администратор\Desktop\Schedule-Bus-main — копия\Schedule-Bus-main\TransportWebSystem\obj\Debug\net9.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Администратор\Desktop\Schedule-Bus-main — копия\Schedule-Bus-main\TransportWebSystem\obj\Debug\net9.0\scopedcss\bundle\TransportWebSystem.styles.css
+C:\Users\Администратор\Desktop\Schedule-Bus-main — копия\Schedule-Bus-main\TransportWebSystem\obj\Debug\net9.0\scopedcss\projectbundle\TransportWebSystem.bundle.scp.css
+C:\Users\Администратор\Desktop\Schedule-Bus-main — копия\Schedule-Bus-main\TransportWebSystem\obj\Debug\net9.0\compressed\a6fi8m68cf-dh5n8ckpcz.gz
+C:\Users\Администратор\Desktop\Schedule-Bus-main — копия\Schedule-Bus-main\TransportWebSystem\obj\Debug\net9.0\compressed\5gt38gcvq8-61n19gt1b8.gz
+C:\Users\Администратор\Desktop\Schedule-Bus-main — копия\Schedule-Bus-main\TransportWebSystem\obj\Debug\net9.0\compressed\doaz3w751f-fr7q2aak1r.gz
+C:\Users\Администратор\Desktop\Schedule-Bus-main — копия\Schedule-Bus-main\TransportWebSystem\obj\Debug\net9.0\compressed\0u9r3m34jd-bqjiyaj88i.gz
+C:\Users\Администратор\Desktop\Schedule-Bus-main — копия\Schedule-Bus-main\TransportWebSystem\obj\Debug\net9.0\compressed\litevnm8dt-c2jlpeoesf.gz
+C:\Users\Администратор\Desktop\Schedule-Bus-main — копия\Schedule-Bus-main\TransportWebSystem\obj\Debug\net9.0\compressed\ktjcl05vcw-erw9l3u2r3.gz
+C:\Users\Администратор\Desktop\Schedule-Bus-main — копия\Schedule-Bus-main\TransportWebSystem\obj\Debug\net9.0\compressed\2ii3c07fbf-aexeepp0ev.gz
+C:\Users\Администратор\Desktop\Schedule-Bus-main — копия\Schedule-Bus-main\TransportWebSystem\obj\Debug\net9.0\compressed\u95yich5df-d7shbmvgxk.gz
+C:\Users\Администратор\Desktop\Schedule-Bus-main — копия\Schedule-Bus-main\TransportWebSystem\obj\Debug\net9.0\compressed\bm56zwrghw-ausgxo2sd3.gz
+C:\Users\Администратор\Desktop\Schedule-Bus-main — копия\Schedule-Bus-main\TransportWebSystem\obj\Debug\net9.0\compressed\4zomrosiru-k8d9w2qqmf.gz
+C:\Users\Администратор\Desktop\Schedule-Bus-main — копия\Schedule-Bus-main\TransportWebSystem\obj\Debug\net9.0\compressed\ima642bas1-cosvhxvwiu.gz
+C:\Users\Администратор\Desktop\Schedule-Bus-main — копия\Schedule-Bus-main\TransportWebSystem\obj\Debug\net9.0\compressed\csuzk33q2l-ub07r2b239.gz
+C:\Users\Администратор\Desktop\Schedule-Bus-main — копия\Schedule-Bus-main\TransportWebSystem\obj\Debug\net9.0\compressed\nwbv2w6iol-fvhpjtyr6v.gz
+C:\Users\Администратор\Desktop\Schedule-Bus-main — копия\Schedule-Bus-main\TransportWebSystem\obj\Debug\net9.0\compressed\ntdhyu9pq8-b7pk76d08c.gz
+C:\Users\Администратор\Desktop\Schedule-Bus-main — копия\Schedule-Bus-main\TransportWebSystem\obj\Debug\net9.0\compressed\s99wiszvix-fsbi9cje9m.gz
+C:\Users\Администратор\Desktop\Schedule-Bus-main — копия\Schedule-Bus-main\TransportWebSystem\obj\Debug\net9.0\compressed\fv1pryp20e-rzd6atqjts.gz
+C:\Users\Администратор\Desktop\Schedule-Bus-main — копия\Schedule-Bus-main\TransportWebSystem\obj\Debug\net9.0\compressed\ek2dqppz3p-ee0r1s7dh0.gz
+C:\Users\Администратор\Desktop\Schedule-Bus-main — копия\Schedule-Bus-main\TransportWebSystem\obj\Debug\net9.0\compressed\9odsgmgdcd-dxx9fxp4il.gz
+C:\Users\Администратор\Desktop\Schedule-Bus-main — копия\Schedule-Bus-main\TransportWebSystem\obj\Debug\net9.0\compressed\a505bi3pc5-jd9uben2k1.gz
+C:\Users\Администратор\Desktop\Schedule-Bus-main — копия\Schedule-Bus-main\TransportWebSystem\obj\Debug\net9.0\compressed\u6g8wi86sq-khv3u5hwcm.gz
+C:\Users\Администратор\Desktop\Schedule-Bus-main — копия\Schedule-Bus-main\TransportWebSystem\obj\Debug\net9.0\compressed\4atw5f8m6o-r4e9w2rdcm.gz
+C:\Users\Администратор\Desktop\Schedule-Bus-main — копия\Schedule-Bus-main\TransportWebSystem\obj\Debug\net9.0\compressed\g1nsc42f1l-lcd1t2u6c8.gz
+C:\Users\Администратор\Desktop\Schedule-Bus-main — копия\Schedule-Bus-main\TransportWebSystem\obj\Debug\net9.0\compressed\x57eagewuo-c2oey78nd0.gz
+C:\Users\Администратор\Desktop\Schedule-Bus-main — копия\Schedule-Bus-main\TransportWebSystem\obj\Debug\net9.0\compressed\cy6bp9t23t-tdbxkamptv.gz
+C:\Users\Администратор\Desktop\Schedule-Bus-main — копия\Schedule-Bus-main\TransportWebSystem\obj\Debug\net9.0\compressed\bx9yj2elkk-j5mq2jizvt.gz
+C:\Users\Администратор\Desktop\Schedule-Bus-main — копия\Schedule-Bus-main\TransportWebSystem\obj\Debug\net9.0\compressed\y8c7zcff76-06098lyss8.gz
+C:\Users\Администратор\Desktop\Schedule-Bus-main — копия\Schedule-Bus-main\TransportWebSystem\obj\Debug\net9.0\compressed\oejfxuow3b-nvvlpmu67g.gz
+C:\Users\Администратор\Desktop\Schedule-Bus-main — копия\Schedule-Bus-main\TransportWebSystem\obj\Debug\net9.0\compressed\flb2yhq4kq-s35ty4nyc5.gz
+C:\Users\Администратор\Desktop\Schedule-Bus-main — копия\Schedule-Bus-main\TransportWebSystem\obj\Debug\net9.0\compressed\egqy7bojqz-pj5nd1wqec.gz
+C:\Users\Администратор\Desktop\Schedule-Bus-main — копия\Schedule-Bus-main\TransportWebSystem\obj\Debug\net9.0\compressed\hftnmj1pcu-46ein0sx1k.gz
+C:\Users\Администратор\Desktop\Schedule-Bus-main — копия\Schedule-Bus-main\TransportWebSystem\obj\Debug\net9.0\compressed\a49wvym2n6-v0zj4ognzu.gz
+C:\Users\Администратор\Desktop\Schedule-Bus-main — копия\Schedule-Bus-main\TransportWebSystem\obj\Debug\net9.0\compressed\n0iojezyc1-37tfw0ft22.gz
+C:\Users\Администратор\Desktop\Schedule-Bus-main — копия\Schedule-Bus-main\TransportWebSystem\obj\Debug\net9.0\compressed\m191vd6xtx-hrwsygsryq.gz
+C:\Users\Администратор\Desktop\Schedule-Bus-main — копия\Schedule-Bus-main\TransportWebSystem\obj\Debug\net9.0\compressed\rsug4sdiqb-pk9g2wxc8p.gz
+C:\Users\Администратор\Desktop\Schedule-Bus-main — копия\Schedule-Bus-main\TransportWebSystem\obj\Debug\net9.0\compressed\lxfzo96mfu-ft3s53vfgj.gz
+C:\Users\Администратор\Desktop\Schedule-Bus-main — копия\Schedule-Bus-main\TransportWebSystem\obj\Debug\net9.0\compressed\86jdryhp19-6cfz1n2cew.gz
+C:\Users\Администратор\Desktop\Schedule-Bus-main — копия\Schedule-Bus-main\TransportWebSystem\obj\Debug\net9.0\compressed\mml1s8642c-6pdc2jztkx.gz
+C:\Users\Администратор\Desktop\Schedule-Bus-main — копия\Schedule-Bus-main\TransportWebSystem\obj\Debug\net9.0\compressed\565vvxrjkj-493y06b0oq.gz
+C:\Users\Администратор\Desktop\Schedule-Bus-main — копия\Schedule-Bus-main\TransportWebSystem\obj\Debug\net9.0\compressed\6pia41ko7p-iovd86k7lj.gz
+C:\Users\Администратор\Desktop\Schedule-Bus-main — копия\Schedule-Bus-main\TransportWebSystem\obj\Debug\net9.0\compressed\1xl5348fgn-vr1egmr9el.gz
+C:\Users\Администратор\Desktop\Schedule-Bus-main — копия\Schedule-Bus-main\TransportWebSystem\obj\Debug\net9.0\compressed\s8b6rd8t9c-kbrnm935zg.gz
+C:\Users\Администратор\Desktop\Schedule-Bus-main — копия\Schedule-Bus-main\TransportWebSystem\obj\Debug\net9.0\compressed\s7lg6cmo5z-jj8uyg4cgr.gz
+C:\Users\Администратор\Desktop\Schedule-Bus-main — копия\Schedule-Bus-main\TransportWebSystem\obj\Debug\net9.0\compressed\tuffw1mje9-y7v9cxd14o.gz
+C:\Users\Администратор\Desktop\Schedule-Bus-main — копия\Schedule-Bus-main\TransportWebSystem\obj\Debug\net9.0\compressed\p6j5cykits-notf2xhcfb.gz
+C:\Users\Администратор\Desktop\Schedule-Bus-main — копия\Schedule-Bus-main\TransportWebSystem\obj\Debug\net9.0\compressed\3vleo4u4ys-h1s4sie4z3.gz
+C:\Users\Администратор\Desktop\Schedule-Bus-main — копия\Schedule-Bus-main\TransportWebSystem\obj\Debug\net9.0\compressed\07993hwsje-63fj8s7r0e.gz
+C:\Users\Администратор\Desktop\Schedule-Bus-main — копия\Schedule-Bus-main\TransportWebSystem\obj\Debug\net9.0\compressed\u9t0ibt4bg-0j3bgjxly4.gz
+C:\Users\Администратор\Desktop\Schedule-Bus-main — копия\Schedule-Bus-main\TransportWebSystem\obj\Debug\net9.0\compressed\0sqi3iq2wy-47otxtyo56.gz
+C:\Users\Администратор\Desktop\Schedule-Bus-main — копия\Schedule-Bus-main\TransportWebSystem\obj\Debug\net9.0\compressed\3vj6qcoghx-4v8eqarkd7.gz
+C:\Users\Администратор\Desktop\Schedule-Bus-main — копия\Schedule-Bus-main\TransportWebSystem\obj\Debug\net9.0\compressed\vskvogupgr-l3n5xuwxn8.gz
+C:\Users\Администратор\Desktop\Schedule-Bus-main — копия\Schedule-Bus-main\TransportWebSystem\obj\Debug\net9.0\compressed\mvml06vxtt-ilo7uva0vt.gz
+C:\Users\Администратор\Desktop\Schedule-Bus-main — копия\Schedule-Bus-main\TransportWebSystem\obj\Debug\net9.0\compressed\snkf27vr5b-qlccset4i1.gz
+C:\Users\Администратор\Desktop\Schedule-Bus-main — копия\Schedule-Bus-main\TransportWebSystem\obj\Debug\net9.0\compressed\kdg45ckne3-lzl9nlhx6b.gz
+C:\Users\Администратор\Desktop\Schedule-Bus-main — копия\Schedule-Bus-main\TransportWebSystem\obj\Debug\net9.0\compressed\790p309zwd-ag7o75518u.gz
+C:\Users\Администратор\Desktop\Schedule-Bus-main — копия\Schedule-Bus-main\TransportWebSystem\obj\Debug\net9.0\compressed\nkq664b8qa-xzw0cte36n.gz
+C:\Users\Администратор\Desktop\Schedule-Bus-main — копия\Schedule-Bus-main\TransportWebSystem\obj\Debug\net9.0\compressed\h0jno07p65-0i3buxo5is.gz
+C:\Users\Администратор\Desktop\Schedule-Bus-main — копия\Schedule-Bus-main\TransportWebSystem\obj\Debug\net9.0\compressed\15fj4x4enb-o1o13a6vjx.gz
+C:\Users\Администратор\Desktop\Schedule-Bus-main — копия\Schedule-Bus-main\TransportWebSystem\obj\Debug\net9.0\compressed\yv69e07dj3-ttgo8qnofa.gz
+C:\Users\Администратор\Desktop\Schedule-Bus-main — копия\Schedule-Bus-main\TransportWebSystem\obj\Debug\net9.0\compressed\tvcabw1luf-2z0ns9nrw6.gz
+C:\Users\Администратор\Desktop\Schedule-Bus-main — копия\Schedule-Bus-main\TransportWebSystem\obj\Debug\net9.0\compressed\7imktww405-muycvpuwrr.gz
+C:\Users\Администратор\Desktop\Schedule-Bus-main — копия\Schedule-Bus-main\TransportWebSystem\obj\Debug\net9.0\compressed\pglj8vmsaz-87fc7y1x7t.gz
+C:\Users\Администратор\Desktop\Schedule-Bus-main — копия\Schedule-Bus-main\TransportWebSystem\obj\Debug\net9.0\compressed\vpg8qgvgqf-jfsiqqwiad.gz
+C:\Users\Администратор\Desktop\Schedule-Bus-main — копия\Schedule-Bus-main\TransportWebSystem\obj\Debug\net9.0\compressed\ximsd9n3hk-x5cw4m2ove.gz
+C:\Users\Администратор\Desktop\Schedule-Bus-main — копия\Schedule-Bus-main\TransportWebSystem\obj\Debug\net9.0\compressed\e2qa7c1tls-x5cw4m2ove.gz
+C:\Users\Администратор\Desktop\Schedule-Bus-main — копия\Schedule-Bus-main\TransportWebSystem\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\Администратор\Desktop\Schedule-Bus-main — копия\Schedule-Bus-main\TransportWebSystem\obj\Debug\net9.0\staticwebassets.development.json
+C:\Users\Администратор\Desktop\Schedule-Bus-main — копия\Schedule-Bus-main\TransportWebSystem\obj\Debug\net9.0\staticwebassets.build.endpoints.json
+C:\Users\Администратор\Desktop\Schedule-Bus-main — копия\Schedule-Bus-main\TransportWebSystem\obj\Debug\net9.0\staticwebassets\msbuild.TransportWebSystem.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Администратор\Desktop\Schedule-Bus-main — копия\Schedule-Bus-main\TransportWebSystem\obj\Debug\net9.0\staticwebassets\msbuild.TransportWebSystem.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\Администратор\Desktop\Schedule-Bus-main — копия\Schedule-Bus-main\TransportWebSystem\obj\Debug\net9.0\staticwebassets\msbuild.build.TransportWebSystem.props
+C:\Users\Администратор\Desktop\Schedule-Bus-main — копия\Schedule-Bus-main\TransportWebSystem\obj\Debug\net9.0\staticwebassets\msbuild.buildMultiTargeting.TransportWebSystem.props
+C:\Users\Администратор\Desktop\Schedule-Bus-main — копия\Schedule-Bus-main\TransportWebSystem\obj\Debug\net9.0\staticwebassets\msbuild.buildTransitive.TransportWebSystem.props
+C:\Users\Администратор\Desktop\Schedule-Bus-main — копия\Schedule-Bus-main\TransportWebSystem\obj\Debug\net9.0\staticwebassets.pack.json
+C:\Users\Администратор\Desktop\Schedule-Bus-main — копия\Schedule-Bus-main\TransportWebSystem\obj\Debug\net9.0\TransportWebSystem.dll
+C:\Users\Администратор\Desktop\Schedule-Bus-main — копия\Schedule-Bus-main\TransportWebSystem\obj\Debug\net9.0\refint\TransportWebSystem.dll
+C:\Users\Администратор\Desktop\Schedule-Bus-main — копия\Schedule-Bus-main\TransportWebSystem\obj\Debug\net9.0\TransportWebSystem.pdb
+C:\Users\Администратор\Desktop\Schedule-Bus-main — копия\Schedule-Bus-main\TransportWebSystem\obj\Debug\net9.0\TransportWebSystem.genruntimeconfig.cache
+C:\Users\Администратор\Desktop\Schedule-Bus-main — копия\Schedule-Bus-main\TransportWebSystem\obj\Debug\net9.0\ref\TransportWebSystem.dll

@@ -1,0 +1,54 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+    background-color: #f4f6f9;
+    position: relative;
+    z-index: 0; /* Важливо для правильного накладання */
+}
+
+/* Створюємо той самий "сучасний" напівпрозорий фон з тролейбусом */
+body::before {
+    content: "";
+    position: fixed; /* Фон стоїть на місці при прокрутці */
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    
+    /* Шлях до вашої картинки (перевірте назву файлу!) */
+    background-image: url('../519595.jpg');
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    /* МАГІЯ СУЧАСНОГО ДИЗАЙНУ: */
+    opacity: 0.08; /* Робимо картинку ледь помітною (8% видимості) */
+    filter: grayscale(100%) contrast(120%); /* Робимо чорно-білою і трохи чіткішою */
+    
+    z-index: -1; /* Запихаємо картинку під усі кнопки і тексти */
+}
+
+/* Робимо так, щоб форми і таблиці мали білий фон і виділялися */
+.card, .form-select, .list-group-item {
+    background-color: rgba(255, 255, 255, 0.95) !important;
+    backdrop-filter: blur(5px); /* Легке розмиття того, що під карткою */
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05); /* Легка тінь для об'єму */
+}

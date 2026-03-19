@@ -1,0 +1,300 @@
+﻿@model TransportWebSystem.Models.HomeViewModel
+
+@{
+    ViewData["Title"] = "Головна";
+}
+
+<style>
+    /* Плавна поява елементів */
+    @@keyframes fadeUp {
+        from { opacity: 0; transform: translateY(30px); }
+        to { opacity: 1; transform: translateY(0); }
+    }
+    .anim-fade { animation: fadeUp 0.6s cubic-bezier(0.16, 1, 0.3, 1) forwards; opacity: 0; }
+    .delay-1 { animation-delay: 0.1s; }
+    .delay-2 { animation-delay: 0.2s; }
+    .delay-3 { animation-delay: 0.3s; }
+
+    /* Ефект скла (Glassmorphism) */
+    .glass-card {
+        background: rgba(255, 255, 255, 0.85);
+        backdrop-filter: blur(12px);
+        -webkit-backdrop-filter: blur(12px);
+        border: 1px solid rgba(255, 255, 255, 0.5);
+        transition: all 0.4s ease;
+    }
+    .glass-card:hover {
+        box-shadow: 0 15px 35px rgba(0,0,0,0.08) !important;
+        transform: translateY(-2px);
+    }
+
+    /* Стилізація карток маршрутів */
+    .route-card {
+        transition: all 0.3s ease;
+        border-radius: 12px;
+        border: 1px solid rgba(0,0,0,0.05);
+    }
+    .route-card:hover {
+        background-color: rgba(13, 110, 253, 0.05);
+        border-color: #0d6efd;
+        transform: scale(1.02);
+    }
+
+    /* Плаваюча кнопка теми */
+    .theme-toggle {
+        position: fixed; bottom: 30px; right: 30px; z-index: 1000;
+        width: 55px; height: 55px; border-radius: 50%;
+        display: flex; align-items: center; justify-content: center;
+        box-shadow: 0 4px 15px rgba(0,0,0,0.2); cursor: pointer; transition: all 0.3s ease;
+    }
+    .theme-toggle:hover { transform: scale(1.1) rotate(15deg); }
+
+    /* === ТЕМНА ТЕМА === */
+    body.dark-theme { background-color: #121212 !important; color: #e0e0e0 !important; }
+    
+    body.dark-theme .glass-card, 
+    body.dark-theme .card {
+        background: rgba(30, 30, 30, 0.85) !important;
+        border: 1px solid rgba(255, 255, 255, 0.1) !important;
+        box-shadow: 0 10px 30px rgba(0,0,0,0.5) !important;
+    }
+    
+    body.dark-theme .text-primary { color: #6ea8fe !important; }
+    body.dark-theme .text-secondary, 
+    body.dark-theme .text-muted { color: #adb5bd !important; }
+    
+    body.dark-theme h1, body.dark-theme h2, body.dark-theme h3, body.dark-theme h4,
+    body.dark-theme strong, body.dark-theme .text-dark { color: #f8f9fa !important; }
+    
+    body.dark-theme .form-select { 
+        background-color: #2b2b2b !important; color: #fff !important; border-color: #444 !important; 
+    }
+    
+    body.dark-theme .route-card { border-color: rgba(255,255,255,0.05); }
+    body.dark-theme .route-card:hover { background-color: rgba(255,255,255,0.05); border-color: #6ea8fe; }
+
+    /* Акордеон у темній темі */
+    body.dark-theme .accordion-item { background-color: transparent; border-color: rgba(255,255,255,0.1); }
+    body.dark-theme .accordion-button { background-color: rgba(255,255,255,0.05); color: #fff; }
+    body.dark-theme .accordion-button:not(.collapsed) { background-color: rgba(13, 110, 253, 0.2); color: #6ea8fe; }
+    body.dark-theme .accordion-button::after { filter: invert(1) grayscale(100%) brightness(200%); }
+    body.dark-theme .list-group-item { background-color: transparent; border-color: rgba(255,255,255,0.05); color: #e0e0e0; }
+
+    .transfer-stop { color: #0d6efd; }
+    body.dark-theme .transfer-stop { color: #ffc107; }
+</style>
+
+<div id="themeToggleBtn" class="theme-toggle bg-primary text-white" onclick="toggleTheme()">
+    <i id="themeIcon" class="bi bi-moon-fill fs-4"></i>
+</div>
+
+<div class="container py-4 position-relative">
+    
+    <div class="text-center mb-5 anim-fade">
+        <h1 class="display-5 fw-bold text-primary mb-3"><i class="bi bi-bus-front-fill me-2"></i>Транспортна система м. Рівне</h1>
+        <p class="lead text-muted">Швидкий пошук оптимальних маршрутів громадського транспорту</p>
+    </div>
+
+    <div class="card border-0 rounded-4 shadow-lg p-4 mb-5 glass-card anim-fade delay-1">
+        <h4 class="mb-4 text-secondary"><i class="bi bi-geo-alt-fill text-danger"></i> Побудувати маршрут</h4>
+        
+        <form method="get" action="/">
+            <div class="row g-4 align-items-end">
+                <div class="col-md-5">
+                    <label class="form-label fw-bold text-muted"><i class="bi bi-geo"></i> Звідки:</label>
+                    <select name="startStopId" class="form-select form-select-lg shadow-sm" style="border-radius: 12px;" required>
+                        <option value="">-- Оберіть початкову зупинку --</option>
+                        @if (Model?.Stops != null)
+                        {
+                            @foreach (var stop in Model.Stops.OrderBy(s => s.Name))
+                            {
+                                <option value="@stop.Id" selected="@(Model.StartStopId == stop.Id ? "selected" : null)">@stop.Name</option>
+                            }
+                        }
+                    </select>
+                </div>
+                
+                <div class="col-md-5">
+                    <label class="form-label fw-bold text-muted"><i class="bi bi-flag"></i> Куди:</label>
+                    <select name="endStopId" class="form-select form-select-lg shadow-sm" style="border-radius: 12px;" required>
+                        <option value="">-- Оберіть кінцеву зупинку --</option>
+                        @if (Model?.Stops != null)
+                        {
+                            @foreach (var stop in Model.Stops.OrderBy(s => s.Name))
+                            {
+                                <option value="@stop.Id" selected="@(Model.EndStopId == stop.Id ? "selected" : null)">@stop.Name</option>
+                            }
+                        }
+                    </select>
+                </div>
+                
+                <div class="col-md-2">
+                    <button type="submit" class="btn btn-primary btn-lg w-100 shadow fw-bold" style="border-radius: 12px;">
+                        <i class="bi bi-search me-1"></i> Знайти
+                    </button>
+                </div>
+            </div>
+        </form>
+    </div>
+
+    @if (Model?.SearchResult != null)
+    {
+        <div class="card border-0 rounded-4 shadow p-4 mb-5 glass-card anim-fade delay-2" style="border-left: 5px solid #198754 !important;">
+            <h4 class="mb-3 text-success"><i class="bi bi-check-circle-fill me-2"></i>Результат пошуку:</h4>
+            @if (Model.SearchResult.Count > 0)
+            {
+                bool isTransfer = Model.SearchResult.Count == 2 && 
+                                  !Model.SearchResult[0].Stops.Any(s => s.Id.ToString() == Model.EndStopId?.ToString());
+
+                if (isTransfer)
+                {
+                    var transferStop = Model.SearchResult[0].Stops.FirstOrDefault(s1 => Model.SearchResult[1].Stops.Any(s2 => s2.Id == s1.Id));
+                    var transferStopName = transferStop != null ? transferStop.Name : "найближчій спільній зупинці";
+
+                    <p class="fs-5">Прямих рейсів немає. Знайдено маршрут з <strong>однією пересадкою</strong>:</p>
+                    <ul class="list-group list-group-flush rounded-3 shadow-sm mt-3">
+                        <li class="list-group-item py-3 fs-5" style="border-left: 4px solid #ffc107;">
+                             <span class="badge bg-warning text-dark me-2">Крок 1</span> Сідайте на <strong>@Model.SearchResult[0].TransportType №@Model.SearchResult[0].RouteNumber</strong> та їдьте до зупинки <strong class="transfer-stop">«@transferStopName»</strong>
+                        </li>
+                        <li class="list-group-item py-3 fs-5" style="border-left: 4px solid #198754;">
+                             <span class="badge bg-success me-2">Крок 2</span> На зупинці <strong class="transfer-stop">«@transferStopName»</strong> пересядьте на <strong>@Model.SearchResult[1].TransportType №@Model.SearchResult[1].RouteNumber</strong>
+                        </li>
+                    </ul>
+                }
+                else
+                {
+                    <p class="fs-5">Вам підійдуть наступні <strong>прямі</strong> маршрути:</p>
+                    <div class="row g-3 mt-2">
+                        @foreach (var transport in Model.SearchResult)
+                        {
+                            <div class="col-md-4">
+                                <div class="p-3 route-card bg-white bg-opacity-50 text-center shadow-sm">
+                                    <span class="badge rounded-pill bg-success mb-2 px-3 py-2 shadow-sm fs-6">@transport.TransportType</span> 
+                                    <h4 class="mb-0 text-dark fw-bold">№ @transport.RouteNumber</h4>
+                                </div>
+                            </div>
+                        }
+                    </div>
+                }
+            }
+            else
+            {
+                <div class="alert bg-danger bg-opacity-10 text-danger mb-0 rounded-3 border-0 p-3">
+                    <h5 class="mb-0"><i class="bi bi-exclamation-triangle-fill me-2"></i> На жаль, маршрут між цими зупинками не знайдено.</h5>
+                </div>
+            }
+        </div>
+    }
+
+    <div class="row g-4 mt-2 mb-5 anim-fade delay-3">
+        
+        <div class="col-md-6">
+            <h4 class="text-secondary mb-3"><i class="bi bi-signpost-split-fill me-2"></i>Доступні зупинки</h4>
+            <div class="card border-0 shadow-sm rounded-4 glass-card p-3 h-100">
+                
+                @{
+                    // Групуємо зупинки по District. Якщо District порожній, кидаємо в "Інші"
+                    var groupedStops = Model?.Stops != null 
+                        ? Model.Stops.GroupBy(s => string.IsNullOrEmpty(s.District) ? "Інші зупинки" : s.District).OrderBy(g => g.Key) 
+                        : null;
+                }
+
+                @if (groupedStops != null && groupedStops.Any())
+                {
+                    <div class="accordion" id="stopsAccordion">
+                        @{ int i = 0; }
+                        @foreach (var group in groupedStops)
+                        {
+                            var headingId = $"heading{i}";
+                            var collapseId = $"collapse{i}";
+
+                            <div class="accordion-item mb-2 border rounded shadow-sm overflow-hidden">
+                                <h2 class="accordion-header" id="@headingId">
+                                    <button class="accordion-button collapsed fw-bold py-3" type="button" data-bs-toggle="collapse" data-bs-target="#@collapseId" aria-expanded="false" aria-controls="@collapseId">
+                                        📍 @group.Key 
+                                        <span class="badge bg-secondary rounded-pill ms-auto">@group.Count()</span>
+                                    </button>
+                                </h2>
+                                <div id="@collapseId" class="accordion-collapse collapse" aria-labelledby="@headingId" data-bs-parent="#stopsAccordion">
+                                    <div class="accordion-body p-0">
+                                        <ul class="list-group list-group-flush">
+                                            @foreach (var stop in group.OrderBy(s => s.Name))
+                                            {
+                                                <li class="list-group-item px-4 py-2 text-dark"><i class="bi bi-geo-alt text-muted me-2"></i>@stop.Name</li>
+                                            }
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            i++;
+                        }
+                    </div>
+                }
+            </div>
+        </div>
+        
+        <div class="col-md-6">
+            <h4 class="text-secondary mb-3"><i class="bi bi-bus-front me-2"></i>Наявні маршрути</h4>
+            <div class="card border-0 shadow-sm rounded-4 glass-card p-4 h-100">
+                <div class="row g-3">
+                    @if (Model?.Routes != null)
+                    {
+                        @foreach (var route in Model.Routes.OrderBy(r => r.RouteNumber))
+                        {
+                            bool isTrolley = route.TransportType.ToLower().Contains("тролейбус");
+                            string badgeClass = isTrolley ? "bg-info text-dark" : "bg-primary text-light";
+                            string iconClass = isTrolley ? "bi-lightning-charge-fill" : "bi-bus-front-fill";
+
+                            <div class="col-sm-6">
+                                <div class="route-card p-3 d-flex flex-column align-items-center justify-content-center h-100 text-center">
+                                    <span class="badge rounded-pill @badgeClass mb-2 px-3 py-1 shadow-sm">
+                                        <i class="bi @iconClass me-1"></i> @route.TransportType
+                                    </span>
+                                    <strong class="fs-5 text-dark">№ @route.RouteNumber</strong>
+                                </div>
+                            </div>
+                        }
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    function toggleTheme() {
+        const body = document.body;
+        const icon = document.getElementById('themeIcon');
+        const btn = document.getElementById('themeToggleBtn');
+        
+        body.classList.toggle('dark-theme');
+        
+        if(body.classList.contains('dark-theme')) {
+            localStorage.setItem('theme', 'dark');
+            icon.classList.remove('bi-moon-fill');
+            icon.classList.add('bi-sun-fill');
+            btn.classList.replace('bg-primary', 'bg-warning');
+            btn.classList.replace('text-white', 'text-dark');
+        } else {
+            localStorage.setItem('theme', 'light');
+            icon.classList.remove('bi-sun-fill');
+            icon.classList.add('bi-moon-fill');
+            btn.classList.replace('bg-warning', 'bg-primary');
+            btn.classList.replace('text-dark', 'text-white');
+        }
+    }
+
+    // Перевірка збереженої теми при завантаженні
+    window.onload = function() {
+        const savedTheme = localStorage.getItem('theme');
+        if(savedTheme === 'dark') {
+            document.body.classList.add('dark-theme');
+            const icon = document.getElementById('themeIcon');
+            const btn = document.getElementById('themeToggleBtn');
+            icon.classList.remove('bi-moon-fill');
+            icon.classList.add('bi-sun-fill');
+            btn.classList.replace('bg-primary', 'bg-warning');
+            btn.classList.replace('text-white', 'text-dark');
+        }
+    };
+</script>
